@@ -1,0 +1,52 @@
+.monthSectionInfo {
+    width: 100%;
+}
+   
+  .monthTitle {
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-medium);
+    line-height: var(--line-height-normal);
+    color: var(--primary-black);
+    
+  }
+  
+  .monthPaginationContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px; 
+    margin-top: 16px;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .monthTitle {
+      font-size: 28px;
+      line-height: 114%;
+    }
+    
+    .monthSectionInfo {
+      width: 100%;
+      background-color: var(--secondary-light-blue);
+      font-size: var(--font-size-small);
+      font-weight: var(--font-weight-regular);
+      line-height: var(--line-height-two);
+      color: var(--secondary-blue);
+    }
+    
+    .monthTitle { 
+      font-size: var(--font-size-base);
+      font-weight: var(--font-weight-medium);
+      line-height: var(--line-height-normal);
+      color: var(--primary-black);
+    }
+    
+    .monthPaginationContainer {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+    }
+  }
+

@@ -1,0 +1,28 @@
+.userLogoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.userLogoName {
+  color: var(--primary-black);
+  text-align: right;
+  font-size: var(--font-size-smaller);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-relaxed);
+  margin-right: 8px;
+}
+
+.userLogoImg {
+  border-radius: var(--border-radius-extra-large);
+  width: var(--icon-size-extra-large);
+  height: var(--icon-size-extra-large);
+  margin-right: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .userLogoName {
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-loose);
+  }
+}

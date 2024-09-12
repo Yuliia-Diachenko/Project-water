@@ -1,0 +1,32 @@
+.userAuthWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px; 
+}
+
+.icons {
+  height: var(--icon-size-extra-large);
+  width: var(--icon-size-extra-large);
+  fill: none;
+  stroke: var(--primary-black);
+}
+
+.userAuthLink {
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-smaller);
+  line-height: var(--line-height-relaxed);
+  color: var(--primary-blue);
+  background-color: transparent;
+}
+
+.userAuthLink:hover,
+.userAuthLink:focus {
+  color: var(--secondary-orange);
+}
+
+@media screen and (min-width: 768px) {
+  .userAuthLink {
+    font-size: var(--font-size-medium);
+    line-height: var(--line-height-loose);
+  }
+}
